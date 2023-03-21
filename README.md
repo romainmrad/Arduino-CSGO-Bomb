@@ -5,7 +5,7 @@ Functioning CSGO Bomb using Arduino. Meant to be used with nerfs or softguns.
 
 Components : 
 - Arduino UNO 
-- I2C LED screen
+- I2C LCD screen
 - 4x3 matrix keypad 
 - 2 buzzers
 - 3 Leds (R, Y, G)
