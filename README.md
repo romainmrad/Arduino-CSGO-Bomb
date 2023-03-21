@@ -12,6 +12,11 @@ Components :
 - 2 buzzers
 - 3 Leds (R, Y, G)
 
+Arduino libraries : 
+- LiquidCrystal_I2C.h
+- Keypad.h
+
+
 ## Functioning : 
 To input a 4-digit code, press *
 To confirm a code, press #
