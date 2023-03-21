@@ -18,8 +18,8 @@ Arduino libraries :
 
 
 ## Functioning : 
-To input a 4-digit code, press *
-To confirm a code, press #
+- To input a 4-digit code, press *
+- To confirm a code, press #
 
 ### Stage 1:
 Bomb is in standby state. Input code 0001 to start a game. 
