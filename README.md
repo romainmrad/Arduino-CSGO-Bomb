@@ -2,6 +2,7 @@
 
 ## Description
 Functioning CSGO Bomb using Arduino. 
+
 Components : 
 - Arduino UNO 
 - I2C LED screen
