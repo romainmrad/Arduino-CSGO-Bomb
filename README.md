@@ -51,6 +51,7 @@ Red LED is on
 Input code 0009 to reset game and go back to stage 1
 
 ### Utilities : 
+Input code 0000 to reset all values to default
 Input code 0005 at any time during the game to pause
 Input code 0009 at any time during the game to end it and go back to stage 1
 Input code 1111 in standby mode to edit timer values
@@ -58,11 +59,13 @@ Input code 1111 in standby mode to edit timer values
 ### Default values : 
 - Plant timer : 3 minutes
 - Defuse timer : 3 minutes 
-- Codes :
--     char armPass[4] = { '1', '7', '3', '9' };
--     char defPass[4] = { '2', '4', '8', '6' };
--     char editPass[4] = { '1', '1', '1', '1' };
--     char initPass[4] = { '0', '0', '0', '0' };
--     char begPass[4] = { '0', '0', '0', '1' };
--     char pauseTimePass[4] = { '0', '0', '0', '5' };
--     char endPass[4] = { '0', '0', '0', '9' };
+
+|Function        | Code |
+|----------------|------|
+|Plant the bomb  | 1739 |
+|Defuse the bomb | 2486 |
+|Edit timers     | 1111 |
+|Reset values    | 0000 |
+|Start game      | 0001 |
+|Pause game      | 0005 |
+|End game        | 0009 |
