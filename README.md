@@ -3,9 +3,11 @@
 ## Description
 Functioning CSGO Bomb using Arduino. Meant to be used with nerfs or softguns.
 
+Copy and paste diagram.json in https://wokwi.com > start from scrath > diagram.json to view circuit diagram and wiring
+
 Components : 
 - Arduino UNO 
-- I2C LCD screen
+- I2C 1602 LCD screen
 - 4x3 matrix keypad 
 - 2 buzzers
 - 3 Leds (R, Y, G)
